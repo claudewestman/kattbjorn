@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Red Panda / Kattbjörn Logo -->
+  <defs>
+    <linearGradient id="fur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E85D26"/>
+      <stop offset="100%" style="stop-color:#D14A1A"/>
+    </linearGradient>
+    <linearGradient id="furLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A261"/>
+      <stop offset="100%" style="stop-color:#E8923A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ears -->
+  <ellipse cx="62" cy="42" rx="28" ry="32" fill="url(#fur)" transform="rotate(-15, 62, 42)"/>
+  <ellipse cx="138" cy="42" rx="28" ry="32" fill="url(#fur)" transform="rotate(15, 138, 42)"/>
+  <ellipse cx="62" cy="40" rx="16" ry="20" fill="#2D2D44" transform="rotate(-15, 62, 40)"/>
+  <ellipse cx="138" cy="40" rx="16" ry="20" fill="#2D2D44" transform="rotate(15, 138, 40)"/>
+  <ellipse cx="62" cy="38" rx="10" ry="13" fill="url(#furLight)" transform="rotate(-15, 62, 38)"/>
+  <ellipse cx="138" cy="38" rx="10" ry="13" fill="url(#furLight)" transform="rotate(15, 138, 38)"/>
+
+  <!-- Head shape -->
+  <ellipse cx="100" cy="110" rx="72" ry="68" fill="url(#fur)"/>
+
+  <!-- White face mask -->
+  <ellipse cx="100" cy="118" rx="52" ry="50" fill="#FFF5EE"/>
+
+  <!-- Eye patches (dark) -->
+  <ellipse cx="74" cy="100" rx="20" ry="16" fill="#2D2D44"/>
+  <ellipse cx="126" cy="100" rx="20" ry="16" fill="#2D2D44"/>
+
+  <!-- Eyes (white) -->
+  <ellipse cx="76" cy="100" rx="10" ry="10" fill="white"/>
+  <ellipse cx="124" cy="100" rx="10" ry="10" fill="white"/>
+
+  <!-- Pupils -->
+  <circle cx="79" cy="99" r="6" fill="#1A1A2E"/>
+  <circle cx="127" cy="99" r="6" fill="#1A1A2E"/>
+
+  <!-- Eye shine -->
+  <circle cx="82" cy="96" r="2.5" fill="white"/>
+  <circle cx="130" cy="96" r="2.5" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="120" rx="7" ry="5" fill="#1A1A2E"/>
+
+  <!-- Mouth -->
+  <path d="M93 126 Q100 132 107 126" stroke="#1A1A2E" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheek marks (whisker area) -->
+  <ellipse cx="68" cy="118" rx="10" ry="7" fill="url(#furLight)" opacity="0.5"/>
+  <ellipse cx="132" cy="118" rx="10" ry="7" fill="url(#furLight)" opacity="0.5"/>
+
+  <!-- Forehead stripe -->
+  <path d="M100 68 L96 85 L100 80 L104 85 Z" fill="url(#furLight)" opacity="0.6"/>
+
+  <!-- Side fur tufts -->
+  <path d="M32 90 Q28 100 35 108" stroke="url(#fur)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M168 90 Q172 100 165 108" stroke="url(#fur)" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>
