@@ -16,7 +16,7 @@ export function Nav() {
     <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
       <div className="nav-inner container">
         <a href="#" className="nav-logo">
-          <img src="/logo.svg" alt="Kattbjörn" className="nav-logo-img" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Kattbjörn" className="nav-logo-img" />
           <span className="nav-logo-text">kattbjörn</span>
         </a>
         <div className={`nav-links${menuOpen ? ' active' : ''}`}>
