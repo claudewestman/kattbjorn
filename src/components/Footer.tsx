@@ -3,7 +3,7 @@ export function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src="/logo.svg" alt="Kattbjörn" className="footer-logo" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Kattbjörn" className="footer-logo" />
           <span>Aktiebolaget Kattbjörn</span>
         </div>
         <p className="footer-copy">&copy; 2025 Aktiebolaget Kattbjörn</p>

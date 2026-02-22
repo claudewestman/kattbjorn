@@ -31,7 +31,7 @@ export function Hero() {
         <div className="hero-visual">
           <div className="hero-logo-wrapper">
             <div className="hero-logo-ring" />
-            <img src="/logo.svg" alt="Kattbjörn logotyp" className="hero-logo" />
+            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Kattbjörn logotyp" className="hero-logo" />
           </div>
         </div>
       </div>
