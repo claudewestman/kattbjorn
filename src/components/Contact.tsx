@@ -4,20 +4,20 @@ export function Contact() {
   const ref = useScrollAnimation()
 
   return (
-    <section className="section section-cta" id="kontakt" ref={ref}>
+    <section className="section section-cta" id="contact" ref={ref}>
       <div className="container">
         <div className="cta-layout">
           <div className="cta-content animate-target">
             <div className="section-eyebrow section-eyebrow-light">
               <span className="eyebrow-line" />
-              <span className="eyebrow-text">Kontakt</span>
+              <span className="eyebrow-text">Contact</span>
             </div>
             <h2 className="cta-heading">
-              Redo att bygga något <span className="text-glow">fantastiskt</span>?
+              Got something <span className="text-glow">interesting</span> to build?
             </h2>
             <p className="cta-desc">
-              Vi letar alltid efter spännande projekt och bra människor att jobba med.
-              Hör av er så snackar vi teknik.
+              We're always up for a conversation about tricky problems and good
+              software. Drop us a line.
             </p>
             <a href="mailto:hej@kattbjorn.se" className="btn btn-light-fill">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -53,10 +53,10 @@ export function Contact() {
                 <div className="terminal-line">
                   <span className="t-prompt">$</span>
                   <span className="t-cmd">echo</span>
-                  <span className="t-string">"Hej! Vi vill jobba med er"</span>
+                  <span className="t-string">"Hey, we should work together"</span>
                 </div>
                 <div className="terminal-line">
-                  <span className="t-output">Hej! Vi vill jobba med er</span>
+                  <span className="t-output">Hey, we should work together</span>
                 </div>
                 <div className="terminal-line">
                   <span className="t-prompt">$</span>
@@ -65,7 +65,7 @@ export function Contact() {
                   <span className="t-string">kattbjorn.se/status</span>
                 </div>
                 <div className="terminal-line">
-                  <span className="t-output">{'{ "status": "redo", "kaffe": true }'}</span>
+                  <span className="t-output">{'{ "status": "available", "coffee": true }'}</span>
                 </div>
                 <div className="terminal-line">
                   <span className="t-prompt">$</span>
