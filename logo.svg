@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300">
+  <!-- Kattbjörn / Red Panda Logo -->
+
+  <!-- Left ear (outer beige, then red, then dark tip) -->
+  <ellipse cx="68" cy="72" rx="48" ry="52" fill="#F0D1B9"/>
+  <ellipse cx="62" cy="65" rx="40" ry="45" fill="#8C2018"/>
+  <path d="M30 30 Q42 12 62 22 Q50 18 38 32Z" fill="#2A1610" opacity="0.9"/>
+
+  <!-- Right ear -->
+  <ellipse cx="292" cy="72" rx="48" ry="52" fill="#F0D1B9"/>
+  <ellipse cx="298" cy="65" rx="40" ry="45" fill="#8C2018"/>
+  <path d="M330 30 Q318 12 298 22 Q310 18 322 32Z" fill="#2A1610" opacity="0.9"/>
+
+  <!-- Head (main red shape, wide) -->
+  <ellipse cx="180" cy="175" rx="140" ry="120" fill="#8C2018"/>
+
+  <!-- Face mask (cream/beige, wide) -->
+  <path d="M60 160 Q65 120 100 115 Q140 108 180 145 Q220 108 260 115 Q295 120 300 160 Q300 230 270 260 Q240 280 180 285 Q120 280 90 260 Q60 230 60 160Z" fill="#F0D1B9"/>
+
+  <!-- Forehead red overlap -->
+  <ellipse cx="180" cy="120" rx="90" ry="55" fill="#8C2018"/>
+
+  <!-- Center forehead line -->
+  <line x1="180" y1="80" x2="180" y2="160" stroke="#6E1A14" stroke-width="3" opacity="0.35"/>
+
+  <!-- Left eye marking (dark, angular teardrop going up-inward) -->
+  <path d="M120 148 Q108 130 118 115 Q130 108 145 118 Q152 132 145 150 Q135 158 120 148Z" fill="#2A1610"/>
+
+  <!-- Right eye marking -->
+  <path d="M240 148 Q252 130 242 115 Q230 108 215 118 Q208 132 215 150 Q225 158 240 148Z" fill="#2A1610"/>
+
+  <!-- Left eyebrow mark -->
+  <path d="M100 108 Q115 94 138 102" stroke="#2A1610" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Right eyebrow mark -->
+  <path d="M260 108 Q245 94 222 102" stroke="#2A1610" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Eyes -->
+  <circle cx="132" cy="140" r="10" fill="#1A0E08"/>
+  <circle cx="228" cy="140" r="10" fill="#1A0E08"/>
+
+  <!-- Eye shine -->
+  <circle cx="136" cy="136" r="3.5" fill="white" opacity="0.6"/>
+  <circle cx="232" cy="136" r="3.5" fill="white" opacity="0.6"/>
+
+  <!-- Nose (large, rounded, prominent) -->
+  <path d="M160 200 Q162 186 180 184 Q198 186 200 200 Q198 212 180 215 Q162 212 160 200Z" fill="#2A1610"/>
+
+  <!-- Nose highlight -->
+  <ellipse cx="175" cy="194" rx="5" ry="4" fill="white" opacity="0.08"/>
+
+  <!-- Mouth line -->
+  <line x1="180" y1="215" x2="180" y2="230" stroke="#C9A58C" stroke-width="2" opacity="0.45"/>
+
+  <!-- Mouth -->
+  <path d="M165 232 Q180 244 195 232" stroke="#C9A58C" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+</svg>
