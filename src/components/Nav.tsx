@@ -20,14 +20,14 @@ export function Nav() {
           <span className="nav-logo-text">kattbjörn</span>
         </a>
         <div className={`nav-links${menuOpen ? ' active' : ''}`}>
-          <a href="#om-oss" onClick={closeMenu}>Om oss</a>
-          <a href="#tjanster" onClick={closeMenu}>Tjänster</a>
-          <a href="#approach" onClick={closeMenu}>Så jobbar vi</a>
-          <a href="#kontakt" className="nav-cta" onClick={closeMenu}>Säg hej</a>
+          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="#services" onClick={closeMenu}>Services</a>
+          <a href="#how-we-work" onClick={closeMenu}>How we work</a>
+          <a href="#contact" className="nav-cta" onClick={closeMenu}>Say hi</a>
         </div>
         <button
           className={`nav-toggle${menuOpen ? ' active' : ''}`}
-          aria-label="Meny"
+          aria-label="Menu"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span /><span /><span />

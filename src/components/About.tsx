@@ -8,8 +8,8 @@ const traits = [
         <rect x="2" y="2" width="24" height="24" rx="6" stroke="currentColor" strokeWidth="2"/>
       </svg>
     ),
-    title: 'Teknisk spets',
-    desc: 'Fullstack, backend, frontend, cloud. Vi levererar seniora utvecklare med djup kompetens.',
+    title: 'Deep technical chops',
+    desc: 'Fullstack, backend, frontend, cloud. Senior developers who know their stuff and can get up to speed fast.',
   },
   {
     icon: (
@@ -18,8 +18,8 @@ const traits = [
         <path d="M14 8v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'Modern stack',
-    desc: 'Vi håller oss i framkant. Nya ramverk, nya mönster, nya sätt att lösa problem.',
+    title: 'Up to date',
+    desc: 'We stay curious. New frameworks, new patterns, new ways of thinking about old problems.',
   },
   {
     icon: (
@@ -29,8 +29,8 @@ const traits = [
         <circle cx="22" cy="6" r="3" stroke="currentColor" strokeWidth="2"/>
       </svg>
     ),
-    title: 'Riktigt trevliga',
-    desc: 'Teamspelare som höjer stämningen och lyfter hela organisationen.',
+    title: 'Good people',
+    desc: 'The kind of teammates who make standup less painful and actually read your PR.',
   },
 ]
 
@@ -38,30 +38,27 @@ export function About() {
   const ref = useScrollAnimation()
 
   return (
-    <section className="section" id="om-oss" ref={ref}>
+    <section className="section" id="about" ref={ref}>
       <div className="container">
         <div className="section-eyebrow animate-target">
           <span className="eyebrow-line" />
-          <span className="eyebrow-text">Om oss</span>
+          <span className="eyebrow-text">About</span>
         </div>
         <div className="about-layout">
           <div className="about-headline animate-target">
             <h2>
-              Vi är inte bara konsulter.<br />
-              <span className="text-gradient">Vi blir en del av ert team.</span>
+              Not just consultants.<br />
+              <span className="text-gradient">Part of your team.</span>
             </h2>
           </div>
           <div className="about-body animate-target">
             <p className="about-lead">
-              Kattbjörn samlar utvecklare som har en sak gemensamt: vi gillar genuint
-              det vi gör. Vi är nyfikna, drivna och tycker att bra kod bäst skrivs med
-              bra stämning.
+              Kattbjörn is a group of developers who genuinely like what they do.
+              We think the best software gets built when people enjoy working together.
             </p>
             <p>
-              Precis som vår maskot, kattbjörnen (den röda pandan), är vi nyfikna,
-              smidiga och lite oväntat charmiga. Vi tror att de bästa lösningarna
-              skapas när teknisk spets möter humor och en ärlig vilja att förstå
-              verksamheten.
+              Named after the red panda (kattbjörn in Swedish) — curious, nimble,
+              and a bit more charming than you'd expect. That's basically us, minus the tail.
             </p>
           </div>
         </div>

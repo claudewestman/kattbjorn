@@ -10,8 +10,8 @@ const steps = [
         <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'Del av teamet',
-    desc: 'Vi integreras fullt ut i ert team. Inga silos, inga murar. Vi jobbar sida vid sida med era utvecklare.',
+    title: 'We sit with you',
+    desc: 'No drive-by consulting. We join your standups, your Slack channels, your retros. We\'re in it with you.',
   },
   {
     step: '02',
@@ -20,8 +20,8 @@ const steps = [
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Kvalitet i koden',
-    desc: 'Vi skriver kod som andra kan förstå och underhålla. Clean code, code reviews och automatiserade tester.',
+    title: 'Code you can maintain',
+    desc: 'We write code for the person who has to read it six months from now. Tests, reviews, documentation where it matters.',
   },
   {
     step: '03',
@@ -31,8 +31,8 @@ const steps = [
         <path d="M21 21l-4.35-4.35" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'Nyfikna på riktigt',
-    desc: 'Vi frågar "varför?" innan vi frågar "hur?". Att förstå problemet på djupet ger bättre lösningar.',
+    title: 'We ask why first',
+    desc: 'Understanding the problem properly saves everyone time. We\'d rather ask a dumb question early than build the wrong thing.',
   },
   {
     step: '04',
@@ -41,8 +41,8 @@ const steps = [
         <path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Kul på jobbet',
-    desc: 'Vi tror att bra stämning ger bättre resultat. Hackathons, spelkvällar och spontana tech talks.',
+    title: 'Work should be fun',
+    desc: 'Happy developers write better code. That\'s not a slogan, it\'s just what we\'ve seen over and over.',
   },
 ]
 
@@ -50,14 +50,14 @@ export function Approach() {
   const ref = useScrollAnimation()
 
   return (
-    <section className="section" id="approach" ref={ref}>
+    <section className="section" id="how-we-work" ref={ref}>
       <div className="container">
         <div className="section-eyebrow animate-target">
           <span className="eyebrow-line" />
-          <span className="eyebrow-text">Så jobbar vi</span>
+          <span className="eyebrow-text">How we work</span>
         </div>
         <h2 className="approach-heading animate-target">
-          Konsulter som <span className="text-gradient">bryr sig</span> på riktigt
+          Consultants who <span className="text-gradient">give a damn</span>
         </h2>
         <div className="approach-grid">
           {steps.map((s) => (
