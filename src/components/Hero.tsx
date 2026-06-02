@@ -1,14 +1,8 @@
 export function Hero() {
   return (
     <header className="hero" id="hero">
-      <div className="hero-glow" />
-      <div className="hero-grid-bg" />
       <div className="container hero-inner">
         <div className="hero-content">
-          <div className="hero-badge">
-            <span className="hero-badge-dot" />
-            Aktiebolaget Kattbjörn
-          </div>
           <h1 className="hero-title">
             Social nerds
             <span className="hero-title-line2">with a taste for</span>
@@ -30,10 +24,7 @@ export function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          <div className="hero-logo-wrapper">
-            <div className="hero-logo-ring" />
-            <img src={`${import.meta.env.BASE_URL}kattbjorn.png`} alt="Kattbjörn logo" className="hero-logo" />
-          </div>
+          <img src={`${import.meta.env.BASE_URL}kattbjorn.png`} alt="Kattbjörn logo" className="hero-logo" />
         </div>
       </div>
     </header>

@@ -1,6 +1,5 @@
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
-import { Ticker } from './components/Ticker'
 import { About } from './components/About'
 import { Services } from './components/Services'
 import { Approach } from './components/Approach'
@@ -12,7 +11,6 @@ export default function App() {
     <>
       <Nav />
       <Hero />
-      <Ticker />
       <About />
       <Services />
       <Approach />
