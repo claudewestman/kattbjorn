@@ -167,6 +167,7 @@ a {
 .nav-logo-img {
   width: 34px;
   height: 34px;
+  object-fit: contain;
 }
 .nav-logo-text {
   letter-spacing: -0.02em;
@@ -371,7 +372,7 @@ a {
 
 .hero-logo {
   width: 280px;
-  height: 280px;
+  height: auto;
   filter: drop-shadow(0 16px 48px rgba(232, 89, 42, 0.2));
   animation: logoFloat 6s ease-in-out infinite;
 }
@@ -838,7 +839,7 @@ a {
 }
 .footer-logo {
   width: 26px;
-  height: 26px;
+  height: auto;
 }
 .footer-copy {
   font-size: 0.8rem;
@@ -879,7 +880,7 @@ a {
   .hero-badge { justify-content: center; }
   .hero-desc { margin-left: auto; margin-right: auto; }
   .hero-actions { justify-content: center; }
-  .hero-logo { width: 220px; height: 220px; }
+  .hero-logo { width: 220px; height: auto; }
   .hero-logo-ring { width: 270px; height: 270px; }
 
   .about-layout {
@@ -976,6 +977,6 @@ a {
     align-items: stretch;
   }
   .btn { justify-content: center; }
-  .hero-logo { width: 180px; height: 180px; }
+  .hero-logo { width: 180px; height: auto; }
   .hero-logo-ring { width: 220px; height: 220px; }
 }
