@@ -16,8 +16,7 @@ export function Contact() {
               Got something <span className="text-glow">interesting</span> to build?
             </h2>
             <p className="cta-desc">
-              We're always up for a conversation about tricky problems and good
-              software. Drop us a line.
+              Tell us about your project or your team, and we'll get back to you.
             </p>
             <a href="mailto:hej@kattbjorn.se" className="btn btn-light-fill">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">

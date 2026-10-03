@@ -10,8 +10,8 @@ const steps = [
         <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'We sit with you',
-    desc: 'No drive-by consulting. We join your standups, your Slack channels, your retros. We\'re in it with you.',
+    title: 'Same team, same goals',
+    desc: 'We join your standups, retros and Slack channels, and work as part of the team for as long as the assignment lasts.',
   },
   {
     step: '02',
@@ -20,8 +20,8 @@ const steps = [
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Code you can maintain',
-    desc: 'We write code for the person who has to read it six months from now. Tests, reviews, documentation where it matters.',
+    title: 'Maintainable code',
+    desc: 'We write code with the next developer in mind, with tests, reviews and documentation where it helps.',
   },
   {
     step: '03',
@@ -31,8 +31,8 @@ const steps = [
         <path d="M21 21l-4.35-4.35" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'We ask why first',
-    desc: 'Understanding the problem properly saves everyone time. We\'d rather ask a dumb question early than build the wrong thing.',
+    title: 'Understand the problem first',
+    desc: 'We take time to understand the problem and the business before we start building. Questions asked early save time later.',
   },
   {
     step: '04',
@@ -41,8 +41,8 @@ const steps = [
         <path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Work should be fun',
-    desc: 'Happy developers write better code. That\'s not a slogan, it\'s just what we\'ve seen over and over.',
+    title: 'Enjoying the work',
+    desc: 'We got into this because we enjoy building things, and we want it to stay that way.',
   },
 ]
 
@@ -57,7 +57,7 @@ export function Approach() {
           <span className="eyebrow-text">How we work</span>
         </div>
         <h2 className="approach-heading animate-target">
-          Consultants who <span className="text-gradient">give a damn</span>
+          How we think about <span className="text-gradient">work</span>
         </h2>
         <div className="approach-grid">
           {steps.map((s) => (

@@ -15,9 +15,8 @@ export function Hero() {
             <span className="hero-title-highlight">software development</span>
           </h1>
           <p className="hero-desc">
-            We're a small crew of developers in Sweden who actually enjoy
-            writing code. We work as consultants, embedded in your team,
-            shipping real things.
+            We're a small group of developers based in Sweden. We work as
+            consultants, usually as part of our clients' own development teams.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn btn-primary">
@@ -26,7 +25,7 @@ export function Hero() {
                 <path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
-            <a href="#about" className="btn btn-outline">Who are we?</a>
+            <a href="#about" className="btn btn-outline">About us</a>
           </div>
         </div>
         <div className="hero-visual">
