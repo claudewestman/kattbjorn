@@ -23,7 +23,7 @@ export function Nav() {
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#services" onClick={closeMenu}>Services</a>
           <a href="#how-we-work" onClick={closeMenu}>How we work</a>
-          <a href="#contact" className="nav-cta" onClick={closeMenu}>Say hi</a>
+          <a href="#contact" className="nav-cta" onClick={closeMenu}>Contact</a>
         </div>
         <button
           className={`nav-toggle${menuOpen ? ' active' : ''}`}

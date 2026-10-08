@@ -165,8 +165,8 @@ a {
   color: var(--color-dark);
 }
 .nav-logo-img {
-  width: 34px;
-  height: 34px;
+  width: auto;
+  height: 30px;
 }
 .nav-logo-text {
   letter-spacing: -0.02em;
@@ -372,6 +372,7 @@ a {
 .hero-logo {
   width: 280px;
   height: 280px;
+  object-fit: contain;
   filter: drop-shadow(0 16px 48px rgba(232, 89, 42, 0.2));
   animation: logoFloat 6s ease-in-out infinite;
 }
@@ -837,8 +838,8 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-logo {
-  width: 26px;
-  height: 26px;
+  width: auto;
+  height: 22px;
 }
 .footer-copy {
   font-size: 0.8rem;

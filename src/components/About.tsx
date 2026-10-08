@@ -8,8 +8,8 @@ const traits = [
         <rect x="2" y="2" width="24" height="24" rx="6" stroke="currentColor" strokeWidth="2"/>
       </svg>
     ),
-    title: 'Deep technical chops',
-    desc: 'Fullstack, backend, frontend, cloud. Senior developers who know their stuff and can get up to speed fast.',
+    title: 'Senior developers',
+    desc: 'Fullstack, backend, frontend and cloud. Experienced developers who quickly find their way around a new codebase.',
   },
   {
     icon: (
@@ -18,8 +18,8 @@ const traits = [
         <path d="M14 8v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'Up to date',
-    desc: 'We stay curious. New frameworks, new patterns, new ways of thinking about old problems.',
+    title: 'Always learning',
+    desc: 'We spend time trying out new tools and techniques, and we share what we learn with each other and with the teams we work in.',
   },
   {
     icon: (
@@ -29,8 +29,8 @@ const traits = [
         <circle cx="22" cy="6" r="3" stroke="currentColor" strokeWidth="2"/>
       </svg>
     ),
-    title: 'Good people',
-    desc: 'The kind of teammates who make standup less painful and actually read your PR.',
+    title: 'Good teammates',
+    desc: 'We care about the team around us. Clear communication, honest feedback and careful code reviews.',
   },
 ]
 
@@ -47,18 +47,18 @@ export function About() {
         <div className="about-layout">
           <div className="about-headline animate-target">
             <h2>
-              Not just consultants.<br />
-              <span className="text-gradient">Part of your team.</span>
+              Experienced developers<br />
+              <span className="text-gradient">who like working in teams</span>
             </h2>
           </div>
           <div className="about-body animate-target">
             <p className="about-lead">
-              Kattbjörn is a group of developers who genuinely like what they do.
-              We think the best software gets built when people enjoy working together.
+              Kattbjörn is a small group of developers who enjoy what we do.
+              We think good software comes from people who work well together,
+              and that's where we put our energy.
             </p>
             <p>
-              Named after the red panda (kattbjörn in Swedish) — curious, nimble,
-              and a bit more charming than you'd expect. That's basically us, minus the tail.
+              Kattbjörn is Swedish for red panda. We liked the name.
             </p>
           </div>
         </div>
